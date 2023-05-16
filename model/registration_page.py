@@ -61,6 +61,3 @@ class RegistationPage():
                                                         student_hobbies, student_picture,
                                                         student_address, student_state_and_city
                                                         ))
-
-    def final_print(self):
-        print('\nТест пройден успешно.')

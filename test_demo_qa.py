@@ -23,4 +23,3 @@ def test_form():
 	                                     'Hobbies Music',
 	                                     'Picture image.png', 'Address Russia, SP',
 	                                     'State and City Haryana Panipat')
-	registation_page.final_print()
