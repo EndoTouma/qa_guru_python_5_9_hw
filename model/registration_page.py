@@ -3,14 +3,11 @@ from selene import have, be
 import os
 
 
-class RegistationPage():
-
+class RegistrationPage():
+    
     def open(self):
-        browser.config.window_width = 1024
-        browser.config.window_height = 768
-        browser.config.base_url = 'https://demoqa.com'
         browser.open('/automation-practice-form')
-
+        
     def fill_first_name(self, first_name):
         browser.element('#firstName').type(first_name)
 
